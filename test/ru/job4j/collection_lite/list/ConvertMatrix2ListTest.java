@@ -1,4 +1,4 @@
-package ru.job4j.list;
+package ru.job4j.collection_lite.list;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertThat;
 public class ConvertMatrix2ListTest {
     @Test
     public void when2on2ArrayThenList4() {
-        ConvertMatrix2List list = new ConvertMatrix2List();
+        ru.job4j.list.ConvertMatrix2List list = new ru.job4j.list.ConvertMatrix2List();
         int[][] input = {
                 {1, 2},
                 {3, 4}

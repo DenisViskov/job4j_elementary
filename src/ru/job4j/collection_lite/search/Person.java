@@ -1,4 +1,4 @@
-package ru.job4j.search;
+package ru.job4j.collection_lite.search;
 
 /**
  * Класс реализцет функционал некоего человека
